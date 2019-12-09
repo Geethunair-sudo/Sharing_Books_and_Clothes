@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <Button
+        android:id="@+id/Continueviaphone"
+        android:layout_width="260dp"
+        android:layout_height="66dp"
+        android:onClick="processphoneloginCLick"
+        android:text="Continue_Via_Phone"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/Continueviaemail"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="366dp"
+        android:layout_width="260dp"
+        android:layout_height="66dp"
+        android:onClick="processemailloginCLick"
+        android:text="Continue_via_Email" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Yet Registered?" />
+
+        <TextView
+            android:id="@+id/SIGN_UP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="processSignupLinkCLick"
+            android:text="Signup"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
