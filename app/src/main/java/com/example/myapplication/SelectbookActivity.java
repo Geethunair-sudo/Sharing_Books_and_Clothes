@@ -6,12 +6,12 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SelectActivity extends AppCompatActivity {
+public class SelectbookActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select);
+        setContentView(R.layout.activity_selectbook);
     }
 
     public void processuploadimageLinkCLick(View view) {
@@ -25,7 +25,7 @@ public class SelectActivity extends AppCompatActivity {
         startActivityForResult(galleryIntent, REQUEST_GALLERY);
     }
     public void processsellLinkCLick(View view) {
-        Intent intent = new Intent(this, SelectbooksorclothesActivity.class);
+        Intent intent = new Intent(this, PostsellbookadActivity.class);
         startActivity(intent);
     }
     public void processbuyLinkCLick(View view) {
@@ -33,7 +33,8 @@ public class SelectActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void processdonateLinkCLick(View view) {
-        Intent intent = new Intent(this, SelectbooksorclothesActivity.class);
+        Intent intent = new Intent(this, PostdonatebookActivity.class);
         startActivity(intent);
     }
+
 }

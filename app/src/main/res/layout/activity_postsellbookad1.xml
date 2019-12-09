@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="200dp"
             android:background="#BBE6EC"
             android:onClick="processChatLinkCLick"
             android:text="Chat" />
@@ -81,21 +81,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="200dp"
             android:background="#BBE6EC"
             android:onClick="processMyADLinkCLick"
             android:text="My_AD" />
 
         <Button
-            android:id="@+id/MyAccount"
+            android:id="@+id/Mycart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="200dp"
             android:background="#BBE6EC"
             android:onClick="processMyaccountLinkCLick"
             android:orientation="horizontal"
-            android:text="My_Account" />
+            android:text="My_Cart" />
 
 
     </LinearLayout>

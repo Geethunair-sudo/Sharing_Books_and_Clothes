@@ -694,6 +694,7 @@ drawable common_google_signin_btn_text_light_normal_background
 drawable donate
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_call_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -724,6 +725,7 @@ id HouseName
 id Landmark
 id META
 id MyAD
+id Mycart
 id Next
 id SHIFT
 id SIGN_UP
@@ -731,6 +733,7 @@ id SYM
 id State
 id StreetName
 id UserName
+id Yourname
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -845,6 +848,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id post
 id progress_circular
 id progress_horizontal
 id radio
@@ -900,6 +904,7 @@ id top
 id topPanel
 id uniform
 id up
+id uploadimage
 id useLogo
 id wide
 id withText
@@ -950,13 +955,16 @@ layout activity_emailloginstep1
 layout activity_login
 layout activity_main
 layout activity_phonelogin
+layout activity_postdonatebook
+layout activity_postdonatecloth
 layout activity_postsellbookad
 layout activity_postsellbookad1
 layout activity_postsellclothad
 layout activity_postsellclothad1
 layout activity_registration
-layout activity_select
+layout activity_selectbook
 layout activity_selectbookorclothes
+layout activity_selectcloth
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

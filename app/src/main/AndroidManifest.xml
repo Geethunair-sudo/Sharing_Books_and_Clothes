@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Sharing Books and Clothes"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -26,13 +26,15 @@
         <activity android:name=".CreatePasswordStep2Activity" />
         <activity android:name=".AddressActivity" />
         <activity android:name=".AccountCreated" />
-        <activity android:name=".SelectActivity" />
+        <activity android:name=".SelectbookActivity" />
         <activity android:name=".SelectbooksorclothesActivity" />
         <activity android:name=".PostsellbookadActivity" />
         <activity android:name=".PostSellbookad1Activity" />
         <activity android:name=".PostsellclothadActivity" />
         <activity android:name=".PostSellclothad1Activity" />
         <activity android:name=".CreatePasswordemailloginActivity" />
+        <activity android:name=".PostdonatebookActivity" />
+        <activity android:name=".PostdonateclothActivity" />
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 </manifest>

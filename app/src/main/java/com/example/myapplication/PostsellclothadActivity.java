@@ -14,6 +14,17 @@ public class PostsellclothadActivity extends AppCompatActivity {
         setContentView(R.layout.activity_postsellclothad);
     }
 
+    public void processuploadimageLinkCLick(View view) {
+        final int REQUEST_GALLERY = 0;
+        String[] mimeTypes = {"image/jpeg", "image/png"};
+
+        Intent galleryIntent = new Intent(
+                Intent.ACTION_PICK,
+                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        galleryIntent.putExtra(Intent.EXTRA_MIME_TYPES, mimeTypes);
+        startActivityForResult(galleryIntent, REQUEST_GALLERY);
+    }
+
     public void processNextLinkCLick(View view) {
         Intent intent = new Intent(this, AccountCreated.class);
         startActivity(intent);

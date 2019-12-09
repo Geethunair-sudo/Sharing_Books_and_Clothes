@@ -4,32 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#AA190E"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SHARING BOOKS AND CLOTHES!"
+        android:layout_height="50dp"
         android:layout_marginTop="100dp"
-        android:textAlignment="center"/>
+        android:text="SHARING BOOKS AND CLOTHES!"
+        android:textAlignment="center"
+        android:textColor="#F3EBEE" />
 
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="80dp"
-        app:srcCompat="@mipmap/ic_launcher_round"/>
+        android:layout_marginTop="180dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
 
-    <Button
-        android:id="@+id/Next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#8BC34A"
-        android:onClick="processNextLinkCLick"
-        android:text="Next"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="150dp"/>
 
 </LinearLayout>

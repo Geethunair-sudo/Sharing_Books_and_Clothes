@@ -14,11 +14,11 @@ public class SelectbooksorclothesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_selectbookorclothes);
     }
     public void processbookLinkCLick(View view) {
-        Intent intent = new Intent(this, PostsellbookadActivity.class);
+        Intent intent = new Intent(this, SelectbookActivity.class);
         startActivity(intent);
     }
     public void processclothesLinkCLick(View view) {
-        Intent intent = new Intent(this, PostsellclothadActivity.class);
+        Intent intent = new Intent(this, SelectbookActivity.class);
         startActivity(intent);
     }
 }
