@@ -95,6 +95,23 @@
                     }
                 },
                 {
+                    "source": "/home/icfoss/.gradle/caches/transforms-2/files-2.1/41c18cd7600ecdb7b8f5998d4f91eabe/play-services-basement-17.0.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
+                    },
+                    "to": {
+                        "startLines": "345,395",
+                        "startColumns": "4,4",
+                        "startOffsets": "20376,24364",
+                        "endColumns": "67,166",
+                        "endOffsets": "20439,24526"
+                    }
+                },
+                {
                     "source": "/home/icfoss/AndroidStudioProjects/sharing/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
@@ -168,23 +185,6 @@
                         "endLines": "2932",
                         "endColumns": "20",
                         "endOffsets": "187294"
-                    }
-                },
-                {
-                    "source": "/home/icfoss/.gradle/caches/transforms-2/files-2.1/a3d1294e380e08fdc9a3141563aa5eda/jetified-play-services-basement-17.0.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "4,7",
-                        "startColumns": "0,0",
-                        "startOffsets": "238,401",
-                        "endColumns": "63,166",
-                        "endOffsets": "301,567"
-                    },
-                    "to": {
-                        "startLines": "345,395",
-                        "startColumns": "4,4",
-                        "startOffsets": "20376,24364",
-                        "endColumns": "67,166",
-                        "endOffsets": "20439,24526"
                     }
                 }
             ]

@@ -29,7 +29,7 @@ public class SelectbookActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void processbuyLinkCLick(View view) {
-        Intent intent = new Intent(this, SelectbooksorclothesActivity.class);
+        Intent intent = new Intent(this, Buybookclothesstep1.class);
         startActivity(intent);
     }
     public void processdonateLinkCLick(View view) {

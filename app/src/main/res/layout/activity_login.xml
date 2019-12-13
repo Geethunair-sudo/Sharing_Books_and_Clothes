@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="#AF9BD1"
+
+    android:background="#EE9BB7"
     android:orientation="vertical"
     android:padding="50dp">
 
@@ -18,12 +19,12 @@
 
     <Button
         android:id="@+id/Continueviaemail"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="366dp"
         android:layout_width="260dp"
         android:layout_height="66dp"
         android:onClick="processemailloginCLick"
-        android:text="Continue_via_Email" />
+        android:text="Continue_via_Email"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="366dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

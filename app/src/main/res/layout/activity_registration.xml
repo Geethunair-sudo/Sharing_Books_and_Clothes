@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     android:padding="50dp">
 
     <TextView
@@ -18,12 +19,12 @@
         android:textColor="@color/colorPrimary" />
 
     <EditText
-        android:id="@+id/UserName"
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:paddingLeft="50dp" />
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -32,7 +33,7 @@
         android:textColor="@color/colorPrimary" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -45,7 +46,7 @@
         android:textColor="@color/colorPrimary" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/phonenum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -58,7 +59,7 @@
         android:textColor="@color/colorPrimary" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -78,11 +79,10 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#CA1303"
-        android:onClick="processSigninLinkCLick"
         android:text="SIGN_IN" />
 
 

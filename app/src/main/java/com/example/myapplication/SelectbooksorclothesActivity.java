@@ -18,7 +18,7 @@ public class SelectbooksorclothesActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void processclothesLinkCLick(View view) {
-        Intent intent = new Intent(this, SelectbookActivity.class);
+        Intent intent = new Intent(this, SelectclothActivity.class);
         startActivity(intent);
     }
 }

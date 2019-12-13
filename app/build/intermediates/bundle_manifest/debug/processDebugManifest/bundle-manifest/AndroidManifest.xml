@@ -8,10 +8,10 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -22,7 +22,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Sharing Books and Clothes"
+        android:label="Sharing_Books_and_Clothes"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
@@ -45,6 +45,7 @@
         <activity android:name="com.example.myapplication.AddressActivity" />
         <activity android:name="com.example.myapplication.AccountCreated" />
         <activity android:name="com.example.myapplication.SelectbookActivity" />
+        <activity android:name="com.example.myapplication.SelectclothActivity" />
         <activity android:name="com.example.myapplication.SelectbooksorclothesActivity" />
         <activity android:name="com.example.myapplication.PostsellbookadActivity" />
         <activity android:name="com.example.myapplication.PostSellbookad1Activity" />
@@ -53,6 +54,8 @@
         <activity android:name="com.example.myapplication.CreatePasswordemailloginActivity" />
         <activity android:name="com.example.myapplication.PostdonatebookActivity" />
         <activity android:name="com.example.myapplication.PostdonateclothActivity" />
+        <activity android:name="com.example.myapplication.Buybookclothesstep1" />
+
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"

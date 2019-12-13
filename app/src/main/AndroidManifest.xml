@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Sharing Books and Clothes"
+        android:label="Sharing_Books_and_Clothes"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -27,6 +28,7 @@
         <activity android:name=".AddressActivity" />
         <activity android:name=".AccountCreated" />
         <activity android:name=".SelectbookActivity" />
+        <activity android:name=".SelectclothActivity" />
         <activity android:name=".SelectbooksorclothesActivity" />
         <activity android:name=".PostsellbookadActivity" />
         <activity android:name=".PostSellbookad1Activity" />
@@ -35,6 +37,8 @@
         <activity android:name=".CreatePasswordemailloginActivity" />
         <activity android:name=".PostdonatebookActivity" />
         <activity android:name=".PostdonateclothActivity" />
+        <activity android:name=".Buybookclothesstep1" />
+
     </application>
     <uses-permission android:name="android.permission.CALL_PHONE" />
 </manifest>

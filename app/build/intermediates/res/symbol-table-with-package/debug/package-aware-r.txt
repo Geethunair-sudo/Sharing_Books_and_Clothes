@@ -669,6 +669,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable background
 drawable books
 drawable buy
 drawable clothes
@@ -697,6 +698,7 @@ drawable googleg_standard_color_18
 drawable ic_call_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable index1
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -709,9 +711,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pic1
+drawable pic2
+drawable pic4
 drawable sell
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable usericon
 id ALT
 id Booktitle
 id CTRL
@@ -732,7 +738,6 @@ id SIGN_UP
 id SYM
 id State
 id StreetName
-id UserName
 id Yourname
 id action_bar
 id action_bar_activity_content
@@ -789,7 +794,6 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
-id editText
 id editText10
 id editText11
 id editText2
@@ -801,13 +805,17 @@ id editText7
 id editText8
 id editText9
 id edit_query
+id email
 id end
 id expand_activities_button
 id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id fmobileno
+id fname
 id forever
+id fplace
 id gone
 id group_divider
 id groups
@@ -832,6 +840,7 @@ id left
 id light
 id line1
 id line3
+id list1
 id listMode
 id list_item
 id mapView
@@ -847,7 +856,9 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
+id password
 id percent
+id phonenum
 id post
 id progress_circular
 id progress_horizontal
@@ -860,6 +871,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -875,6 +887,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signin
 id size
 id spacer
 id split_action_bar
@@ -906,6 +919,7 @@ id uniform
 id up
 id uploadimage
 id useLogo
+id username
 id wide
 id withText
 id wrap
@@ -946,6 +960,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_accountcreated
 layout activity_address
+layout activity_buybookclothes
+layout activity_buybookclothesstep1
 layout activity_createpassword
 layout activity_createpasswordemaillogin
 layout activity_createpasswordstep1
